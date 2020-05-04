@@ -15,16 +15,11 @@
 //! use clap::{Arg, App};
 //! fn main_test() {
 //!   let matches = App::new("My Super Program")
-//!     arg(Arg::with_name("config")
 //!       .arg(Arg::with_name("v")
-//!           .short('v')
-//!           .multiple(true)
-//!           .about("Sets the level of verbosity"))
+//!           .multiple(true))
 //!       .subcommand(App::new("test")
 //!           .about("controls testing features")
-//!           .arg(Arg::with_name("debug")
-//!               .short('d')
-//!               .about("print debug information verbosely")))
+//!           .arg(Arg::with_name("debug")))
 //!       .get_matches();
 
 //!   // do some action with the matches..
@@ -42,12 +37,13 @@
 //! }
 //!
 //! ```
-//!
-//!
 
 extern crate tempfile;
 
 mod builder;
+mod command;
+mod project;
+mod result;
 
 use self::builder::ProjectBuilder;
 
