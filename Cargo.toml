@@ -1,6 +1,6 @@
 [package]
 name = "temp_test"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Quadriphobs1 <abiodunquadriadekunle@gmail.com>"]
 edition = "2018"
 homepage = "https://github.com/Quadriphobs1/temp_test"
@@ -8,7 +8,7 @@ keywords = ["temp_test", "cli_test"]
 license = "MIT/Apache-2.0"
 repository = "https://github.com/Quadriphobs1/temp_test"
 description = "A library for temporary test utils for rust 🔨"
-categories = ["command-line-utilities", "test-tools", "development-tools"]
+categories = ["command-line-utilities", "development-tools::testing", "development-tools"]
 readme = "README.md"
 
 
