@@ -1,6 +1,8 @@
 # temp_test - temporary test utils for rust 🔨
 
 [![Build Status](https://github.com/Quadriphobs1/temp_test/workflows/ci/badge.svg?branch=master&event=push)](https://github.com/Quadriphobs1/temp_test/actions)
+[![Documentation](https://docs.rs/temp_test/badge.svg)](https://docs.rs/temp_test/)
+[![crates.io](https://img.shields.io/crates/d/temp_test.svg)](https://crates.io/crates/temp_test)
 
 A simple temporary file library for Rust. This library can create a temporary environment to test your rust cli library, run test against several commands and args even provide different environments. It uses [tempfile](https://github.com/Stebalien/tempfile) to securely handle all temporary files.
 
@@ -12,7 +14,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dev-dependencies]
-temp_test = "0.1.0"
+temp_test = "0.1.1"
 ```
 
 ## Example
